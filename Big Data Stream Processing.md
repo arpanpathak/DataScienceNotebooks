@@ -1109,15 +1109,3 @@ fun main() {
 
 **Idiomatic Kotlin:** We use Kotlin's `apply` for property initialization, data classes for POJOs, and lambda syntax where appropriate (e.g., key selector). The `Collector` in the window function is from Flink's Java API; we use a SAM conversion for the `WindowFunction` interface.
 
----
-
-## Summary
-
-Both examples demonstrate how to leverage Kotlin's concise syntax while using the powerful Java APIs of Spark and Flink. The key is to:
-
-- Use data classes for type-safe records.
-- Use lambdas for simple functions (e.g., key selectors, map operations).
-- Take advantage of Kotlin's `apply`, `let`, and other scoping functions for cleaner configuration.
-- Remember that all Java APIs are directly callable.
-
-This guide gives you both **deep theory** and **practical Kotlin code** with **explicit input data** and **expected output** for every example. Use it to build confidence and nail your interview. Good luck! 🚀
